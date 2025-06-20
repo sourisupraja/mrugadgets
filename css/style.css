@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(5, 5, 43);
+    color: white;
+    padding: 20px 40px;
+}
+
+.logo h2{
+    color: white;
+    background: none;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: rgb(236, 236, 236);
+    gap: 3em;
+}
+
+.text h2{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.text p{
+    margin-bottom: 30px;
+}
+
+.text button{
+    background-color: rgb(40, 40, 131);
+    width: 130px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+}
+
+.text button:hover{
+    background-color: rgb(129, 129, 241);
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.feature{
+    background-color: rgb(183, 212, 221);
+    flex: 1 1 250px;
+    border-radius: 8px;
+    padding: 20px 20px;
+}
+
+.product-gallary{
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h2{
+    background-color: rgb(236, 236, 236);
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top:20px ;
+}
+
+.product-card{
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    transition: .3s ease;
+}
+
+.product-card:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.subscription{
+    background-color: rgb(72, 72, 245);
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding: 20px 40px;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.subscription h2{
+    color: white;
+    background: none;
+}
+
+.subscription input{
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+.subscription button{
+    color: blue;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.subscription button:hover{
+    background-color: rgb(72, 72, 254);
+}
+
+footer{
+    background-color: rgb(6, 6, 36);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
